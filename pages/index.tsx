@@ -9,6 +9,7 @@ import React, { useEffect, useState } from 'react';
 import Footer from '@/Components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Services from '@/Components/Services';
 
 const HomePage = () => {
 
@@ -42,12 +43,25 @@ const HomePage = () => {
     <div>
       <MobileNav nav={nav} closeNav={closeNav} />
       <Nav openNav={openNav} />
-      <Hero />
+      <div id="hero">
+        <Hero />
+      </div>
       <div className="relative z-[30]">
-        <About />
-        <Skills />
-        <Project />
-        <Footer />
+        <div id="about">
+          <About />
+        </div>
+        <div>
+          <Services />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="project">
+          <Project />
+        </div>
+        <div id="footer">
+          <Footer />
+        </div>
       </div>
     </div>
   </div>

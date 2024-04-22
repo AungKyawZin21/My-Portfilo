@@ -4,7 +4,7 @@ import SkillsItem from './SkillsItem'
 
 const Skills = () => {
   return (
-    <div className="pt-[2rem] md:pt-[4rem] pb-[3rem] bg-[#09101a]">
+    <div className="pt-[6rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]">
         <h1 className="heading">
             My <span className="text-yellow-400">experience</span>
         </h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className="bg-[#02050a] pt-[2rem] md:pt-[4rem] pb-[1rem]">
+    <div className="bg-[#02050a] pt-[6rem] md:pt-[8rem] pb-[2rem]">
         <h1 className="heading">
             Pro<span className="text-yellow-400">Ject</span>
         </h1>
