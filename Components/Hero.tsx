@@ -19,7 +19,12 @@ const Hero = () => {
                   and problem-solving. Strong communication skills and a customer-centric approach.
                 </p>
                 <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-                  <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+                  <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open('https://drive.google.com/file/d/1iHqnSFWYUnK8WhC6pmgDJUmD6nmUEPSl/view?usp=drive_link');
+                    }}
+                  >
                     <p>Download Cv</p>
                     <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
                   </button>
