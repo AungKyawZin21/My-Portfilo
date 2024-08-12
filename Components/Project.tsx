@@ -12,7 +12,7 @@ const Project = () => {
                 <div data-aos="fade-up" data-aos-delay="300">
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <img
-                            src="./images/RealEstate.png"
+                            src="./images/realestate.png"
                             alt="portfolio"
                             className="object-contain h-[90%] mx-auto items-center"
                         />
@@ -27,7 +27,7 @@ const Project = () => {
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <img
-                            src="./images/OnlineShop.png"
+                            src="./images/onlineshop.png"
                             alt="portfolio"
                             className="object-contain h-[90%] mx-auto items-center"
                         />
