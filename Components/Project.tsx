@@ -12,81 +12,96 @@ const Project = () => {
                 <div data-aos="fade-up" data-aos-delay="300">
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <img
-                            src="./images/pj1.png"
+                            src="./images/6.png"
                             alt="portfolio"
                             className="object-contain h-[90%] mx-auto items-center"
                         />
                         <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                            RealEstate (DesignOnly) <br></br>
+                            RealEstate Website<br></br>
                             Language : Html, Css
                         </div>
                     </div>
                 </div>
             </a>
-            <a href='https://aungkyawzin21.github.io/OnlineShop--DesignOnly-/home.html' target="_blank">
+            <a href='https://aungkyawzin21.github.io/E-Commerce-Website/index.html' target="_blank">
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <img
-                            src="./images/pj2.png"
+                            src="./images/2.png"
                             alt="portfolio"
                             className="object-contain h-[90%] mx-auto items-center"
                         />
                         <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                            OnlineShop (DesignOnly) <br></br>
-                            Language : Html, Css(Bootstrap)
+                            E-Commerce Website <br></br>
+                            Language : Html, Css, Js
                         </div>
                     </div>
                 </div>
             </a>
             
-            <div data-aos="fade-up" data-aos-delay="900">
-                <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-                    <img
-                        src="./images/p3.jpg"
-                        alt="portfolio"
-                        className="object-contain h-[90%] mx-auto items-center"
-                    />
-                    <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                        Language : Html, Css, React
+            <a href="https://aungkyawzin21.github.io/ConstructionWebsite/index.html" target="_blank">
+                <div data-aos="fade-up" data-aos-delay="900">
+                    <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+                        <img
+                            src="./images/3.png"
+                            alt="portfolio"
+                            className="object-contain h-[90%] mx-auto items-center"
+                        />
+                        <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
+                            Construction Company Website <br></br>
+                            Language : Html, Css, Js
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a href="https://aungkyawzin21.github.io/Camping-Gear-Website/index.html" target="_blank">
             <div data-aos="fade-up"  data-aos-delay="1200">
                 <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <img
-                        src="./images/p1.jpg"
+                        src="./images/4.png"
                         alt="portfolio"
                         className="object-contain h-[90%] mx-auto items-center"
                     />
                     <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                        Language : Html, Css, React
+                        Camping Website <br></br>
+                        Language : Html, Css, Js
                     </div>
                 </div>
             </div>
+            </a>
+            
+            <a href="#">
             <div data-aos="fade-up"  data-aos-delay="1500">
                 <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <img
-                        src="./images/p2.jpg"
+                        src="./images/5.png"
                         alt="portfolio"
                         className="object-contain h-[90%] mx-auto items-center"
                     />
                     <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                        Language : Html, Css, React
+                        My Portfolio <br></br>
+                        Language : React, Tailwind Css, Next.js
                     </div>
                 </div>
             </div>
+            </a>
+            
+            <a href="https://aungkyawzin21.github.io/InnovareArchitecture/index.html" target="_blank">
             <div data-aos="fade-up"  data-aos-delay="1800">
                 <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <img
-                        src="./images/p3.jpg"
+                        src="./images/1.png"
                         alt="portfolio"
                         className="object-contain h-[90%] mx-auto items-center"
                     />
                     <div className="text-[#aaaaaa] font-normal w-[100%] text-[17px] opacity-80 text-center">
-                        Language : Html, Css, React
+                        Architecture Website <br></br>
+                        Language : Html, Css, Js
                     </div>
                 </div>
             </div>
+            </a>
+            
         </div>
     </div>
   )
